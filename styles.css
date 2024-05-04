@@ -1,0 +1,159 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E7ECEF; 
+    color: #000000;
+    text-align: center;
+    font-size: 13px; 
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: 200px;
+}
+
+header {
+    background-color: #6096BA;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    max-width: 1500px;
+    border-radius: 10px;  
+    margin: 0 auto;  
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+    
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #E7ECEF;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1a263d;
+}
+
+
+
+.logo-container img {
+   height: 30px;
+    transition: transform 0.2s ease
+  
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+.glavnazv {
+    font-size: 25px;
+    
+}
+
+.information {
+    margin-left: 180px; 
+    margin-right: 0;
+    text-align: left; 
+}
+
+section {
+    padding: 20px ;
+}
+
+footer {
+    background-color: #6096BA; 
+    color: #E0DDD6; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    max-width: 1500px;
+    margin: 0 auto; 
+}
+
+.element-item-configurator-flx {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    margin-bottom: 20px; 
+    margin-right: 60px; 
+    
+}
+
+
+.element-item-configurator-flx::after {
+    content: ''; 
+    position: absolute; 
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 3px; 
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+
+
+.icon {
+    margin-right: 10px; 
+    margin-bottom: 30px; 
+
+}
+
+.icon-cpu {
+    max-width: 52px;
+    height: auto;
+
+}
+
+.info-cpu {
+    text-align: left;
+}
+
+.name-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.name-cpu {
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.description-cpu-button {
+    background-color: #8B8C89;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: background-color 0.3s ease;
+  
+}
+
+.description-cpu-button:hover {
+    background-color: #274C77;
+}
+
+ 
